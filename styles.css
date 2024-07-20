@@ -2,7 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: Arial, sans-serif;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 #board {
@@ -11,6 +11,16 @@ body {
   grid-template-rows: repeat(15, 40px);
   gap: 1px;
   margin-top: 20px;
+}
+
+hr {
+  width: 500px;
+}
+
+#title {
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .cell {
